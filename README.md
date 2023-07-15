@@ -259,3 +259,6 @@ Ten en cuenta que en esta instancia no es obligatorio el desarrollo de testing p
 <div align="center">
 <img src="./videogame.png" alt="" />
 </div>
+
+![image](https://github.com/Orliluq/PI-Videogames-main/assets/122529721/bc359d2f-9ad9-483d-a919-8e857360abad)
+
