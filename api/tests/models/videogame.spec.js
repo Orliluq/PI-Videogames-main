@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const { Videogame, conn } = require('../../src/db.js');
 const { expect } = require('chai');
 
