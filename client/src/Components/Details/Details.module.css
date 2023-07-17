@@ -1,0 +1,118 @@
+.detail_background {
+  justify-content: center;
+  align-items: center;
+  width: 100%;   
+  height: 130%;
+  top: 0;
+  position: absolute; 
+  background-repeat: no-repeat;
+  background-image: url('../../imag/fondo_detail.jpeg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+.detail_title_container {
+    justify-content: center;
+    text-align: center;
+}
+
+.detail_title {
+    color: rgb(6, 4, 34);
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: #7741ce;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 30px #b086d3, 0 0 30px #4132ce, 0 0 30px rgb(86, 241, 65), 0 0 30px rgb(65, 191, 241), 0 0 30px rgb(202, 216, 81), 0 0 30px rgb(179, 241, 65);
+}
+
+.detail_container_form {
+    background-color: #7741ce;
+    border-radius: 0.5rem;
+    font-family: Consolas, 'Courier New';
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 10px #d38686, 0 0 10px #d38686, 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65);
+}
+
+.detail_button {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 30px #b086d3, 0 0 30px #4132ce, 0 0 30px rgb(86, 241, 65), 0 0 30px rgb(65, 191, 241), 0 0 30px rgb(202, 216, 81), 0 0 30px rgb(179, 241, 65);
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.detail_background_image {
+    float: left;
+    border-radius: 0.4rem;
+    width: 20rem;
+    height: 30rem;
+    margin-left: 1.2rem;
+    margin-right: 1rem;
+    box-shadow: 0 0 10px #d38686, 0 0 10px #d38686, 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65);
+}
+
+.detail_released {
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+}
+
+.detail_platforms {
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+}
+
+.detail_genres {
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+}
+
+.detail_rating {
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+}
+
+.detail_description {
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+}
+
+.detail_description_form {
+    overflow: scroll;
+    margin-left: 23rem;
+    border-radius: 0.5rem;
+    border-color: black solid;
+    background-color: rgb(235, 230, 160);
+    font-family: Consolas, 'Courier New';
+    width: 55rem;
+    height: 19.5rem;
+    box-shadow: 0 0 10px #d38686, 0 0 10px #d38686, 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65), 0 0 10px rgb(241, 129, 65);
+}

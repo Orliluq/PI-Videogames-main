@@ -1,0 +1,103 @@
+.content_select {
+    width: 70%;
+}
+
+.nav_title {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 30px #b086d3, 0 0 30px #4132ce, 0 0 30px rgb(86, 241, 65), 0 0 30px rgb(65, 191, 241), 0 0 30px rgb(202, 216, 81), 0 0 30px rgb(179, 241, 65);
+    margin-left: 20%;
+    font-family: Consolas, 'Courier New';
+}
+
+.navbar_container {
+    display: inline-block;
+    margin-left: 7rem;
+    text-align: center;
+}
+
+.select {
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #d3c9c9;
+    border-radius: 0.3rem;
+    color: black;
+}
+
+.select:hover {
+    background-color: white;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.button_create_videogame {
+    color: #e6e3f1;
+    justify-content: right;
+    margin-right: 2rem;
+    margin-left: -20rem;
+    padding-top: 40rem;    
+    background-color: #120536;
+    border: #878fe0 3px solid;
+    transform: scale(1.2);
+    margin-top: 10rem;
+    position: relative;
+    padding: 1rem;
+    bottom: 100px;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 10px;
+    font-family: Consolas, 'Courier New';
+    font-size: 1.2rem;
+}
+
+.button_about {
+    color: #e6e3f1;
+    justify-content: right;
+    margin-right: 30rem;
+    margin-left: 5rem;
+    padding-top: 40rem;    
+    background-color: #120536;
+    border: #878fe0 3px solid;
+    transform: scale(1.2);
+    margin-top: 10rem;
+    position: relative;
+    padding: 1rem;
+    bottom: 100px;
+    height: 2.5rem;
+    box-shadow: 20px rgba(141, 205, 224, 0.87);
+    width: 15rem;
+    border-radius: 10px;
+    font-family: Consolas, 'Courier New';
+    font-size: 1.2rem;
+}
+
+.button_landing {
+    color: #e6e3f1;
+    justify-content: right;
+    /* margin-right: 8rem;
+    margin-left: 1rem; */
+    padding-top: 40rem;    
+    background-color: #120536;
+    border: #878fe0 3px solid;
+    transform: scale(1.2);
+    margin-top: 10rem;
+    position: relative;
+    padding: 1rem;
+    bottom: 100px;
+    height: 2.5rem;
+    box-shadow: 20px rgba(141, 205, 224, 0.87);
+    width: 15rem;
+    border-radius: 10px;
+    font-family: Consolas, 'Courier New';
+    font-size: 1.2rem;
+}
