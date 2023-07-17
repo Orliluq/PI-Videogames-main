@@ -7,10 +7,10 @@ import styles from './Create.module.css';
 function validate(input) {
     let errors = {};
     if (!input.name.trim()) {
-        errors.name = 'Se requiere el nombre';
+        errors.name = 'Name is required';
     }
     if (!input.description.trim()) {
-        errors.description = 'Se requiere la descripción';
+        errors.description = 'Description is required';
     }
 
     return errors;
