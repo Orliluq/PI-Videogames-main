@@ -1,0 +1,227 @@
+.background_create {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130%;
+    top: 0;
+    position: absolute;
+    background-image: url('../../imag/fondo_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.create_ready {
+    color: rgba(33, 135, 194, 0.863);
+    text-shadow: 0 0 30px #b086d3, 0 0 30px #4132ce, 0 0 30px rgb(86, 241, 65), 0 0 30px rgb(65, 191, 241), 0 0 30px rgb(202, 216, 81), 0 0 30px rgb(179, 241, 65);
+    font-size: 2.5rem;
+    margin-left: 30%;
+    font-family: Consolas, 'Courier New';
+    justify-content: center;
+    align-items: center;
+}
+
+.create_home_container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    box-shadow: 3px lightcyan;
+}
+
+.create_container_form {
+    margin-top: 3rem;
+    bottom: 20%;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9a8f5;
+    border-radius: 0.5rem;
+}
+
+.create_home {
+    display: inline-block;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 30px #b086d3, 0 0 30px #4132ce, 0 0 30px rgb(86, 241, 65), 0 0 30px rgb(65, 191, 241), 0 0 30px rgb(202, 216, 81), 0 0 30px rgb(179, 241, 65);
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_form {
+    flex-direction: column;
+}
+
+.create_input {
+    width: 30rem;
+    height: 2rem;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    list-style: none;
+    outline: none;
+    border: none;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_error {
+    color: red;
+    margin-left: 20%;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_released_container {
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_released {
+    margin-left: 5%;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_released_input {
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-left: 5%;
+    border: none;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_rating {
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_rating_input {
+    width: 2rem;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+    outline: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: black;
+    margin-left: 1%;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_genres_container {
+    margin-top: 1rem;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_genres {
+    margin-left: -1rem;
+}
+
+.create_genres_input {
+    width: 27rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_platforms_container {
+    margin-top: 1rem;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_platforms {
+    margin-left: -1rem;
+}
+
+.create_platforms_input {
+    width: 27.3rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: black;
+    font-family: Consolas, 'Courier New';
+}
+
+.create {
+    margin-top: 2rem;
+    justify-content: center;
+    margin-left: 45%;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: #878fe0 3px solid;
+    border-color: rgb(35, 35, 131);
+    background-color: rgb(16, 16, 88);
+    color: white;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    font-family: Consolas, 'Courier New';
+}
+
+.create:hover {
+    color: #bcd386;
+}
+
+.create_x_genre_container {
+    margin-top: 2rem;
+    margin-left: 30rem;
+    justify-content: center;
+    width: 20rem;
+    font-family: Consolas, 'Courier New';
+}
+
+.create_x_genre {
+    margin-right: 1rem;
+
+}
+
+.create_x_genre_buttom {
+    border-radius: 0.3rem;
+    color: red;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.create_x_platform_container {
+    margin-top: 2rem;
+    margin-left: 30rem;
+    justify-content: center;
+    width: 20rem;
+}
+
+.create_x_platform {
+    margin-right: 1rem;
+}
+
+.create_x_platform_buttom {
+    border-radius: 0.3rem;
+    color: red;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+};

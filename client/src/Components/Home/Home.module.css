@@ -1,0 +1,68 @@
+.home_page {
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%;  
+    height: 100%; */
+    position: absolute;
+    background-image: url('../../imag/fondo_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 3px;
+    padding: 8px;
+    justify-content: center;
+    transition: margin-left 0.3s 0.1s;
+}
+  
+.create_container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    justify-content: center;
+}
+  
+.pagination {
+    margin-bottom: 5rem;
+    cursor: pointer;
+    margin-left: 5rem;
+}
+  
+.placeCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.reload_container {
+    margin-left: 5rem;
+    margin-right: -30rem;
+    margin-top: 1rem;
+    font-family: Consolas, 'Courier New';
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+}
+  
+.reload_container:hover {
+    border: #5a60ad 5px solid;
+    transform: scale(1.1);
+    box-shadow: 5px;
+}
+  
+/* Responsive layout */
+@media (max-width: 800px) {
+    .placeCards {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+};
